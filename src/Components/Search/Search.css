@@ -1,0 +1,27 @@
+.search__container {
+  display: flex;
+  padding: 0.8rem 1.3rem;
+  box-shadow: 0 0 12px 0 rgb(0, 0, 0, 0.25);
+  width: 30%;
+  /* margin: 4rem; */
+  align-items: center;
+  gap: 1rem;
+}
+
+.search__icon {
+  width: 22px;
+}
+
+.search__area {
+  display: inline-block;
+  border: none;
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+}
+
+@media (max-width: 430px) {
+  .search__container {
+    width: 70%;
+  }
+}

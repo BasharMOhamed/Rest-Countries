@@ -1,0 +1,23 @@
+.filter__container {
+  display: flex;
+  box-shadow: 0 0 12px 0 rgb(0, 0, 0, 0.25);
+  max-width: rem;
+  /* margin: 4rem; */
+  width: 15%;
+  padding: 1rem;
+}
+
+.select__area {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media (max-width: 430px) {
+  .filter__container {
+    width: 50%;
+    align-self: flex-end;
+    margin-right: 2rem;
+  }
+}
